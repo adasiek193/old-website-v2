@@ -77,6 +77,14 @@ body {
   }
 }
 
+.footer-text {
+  margin: 0;
+  font-size: 0.5rem;
+  font-family: var(--font-main);
+  top: 90%;
+  text-align: center;
+}
+
 /* Coursored link */
 a:hover {
   color: #DD0101;
