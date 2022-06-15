@@ -5,6 +5,11 @@ body.light {
   color: black;
 }
 
+body.light a:link { color: black; }
+body.light a:visited { color: black; }
+body.light a:hover { color: black; }
+body.light a:active { color: black; }
+
 
 /* constants */
 
@@ -85,8 +90,10 @@ body {
   }
 }
 
-#changetheme {
-  color: rebeccapurple;
-  font-size: 12px;
-}
+a:link { color: white; }
 
+a:visited { color: white; }
+
+a:hover { color: white; }
+
+a:active { color: white; }
