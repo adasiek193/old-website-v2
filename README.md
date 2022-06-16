@@ -1,7 +1,7 @@
 <h1> ADASIEK.XYZ V2 </h1>
 
 <div id="license">
-  <p> MIT LICENSE https://github.com/adasiek193/adasiek.xyzV2/blob/main/LICENSE </p>
+  <p> <a href="https://github.com/adasiek193/adasiek.xyzV2/blob/main/LICENSE" style="text-decoration: none;" target="_blank">MIT</a> License </p>
 </div>
 
 <div id="about">
