@@ -86,7 +86,7 @@ body {
   top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin: 0;
+  margin: 2.5px;
 }
 
 #typing-animation-about {

@@ -20,15 +20,33 @@ body {
 
 #about-text {
     padding: 70px 0;
-    border: 2.5px solid rgb(20, 155, 196);
+    border: 2.5px solid rgb(255, 255, 255);
     text-align: center;
     font-size: 24px;
     margin: 10px;
 }
 
-.changetheme {
-    
+#index-redirect{
+    text-align: center;
 }
+
+/* LINKS */
+
+a:link {
+    color: white;
+  }
+  
+a:visited {
+    color: white;
+  }
+  
+a:hover {
+    color: white;
+  }
+  
+a:active {
+    color: white;
+  }
 
 /* LIGHT */
 
@@ -38,5 +56,18 @@ body.light {
 }
 
 body.light #about-text {
-    border: 2.5px solid rgb(52, 12, 161);
+    border: 2.5px solid rgb(0, 0, 0);
 }
+
+body.light a:link {
+    color: black;
+  }
+body.light a:visited {
+    color: black;
+  }
+body.light a:hover {
+    color: black;
+  }
+body.light a:active {
+    color: black;
+  }
