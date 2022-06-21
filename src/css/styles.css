@@ -1,15 +1,6 @@
-/* LIGHT */
+/* importing font*/
 
-body.light {
-  background-color: white;
-  color: black;
-}
-
-body.light a:link { color: black; }
-body.light a:visited { color: black; }
-body.light a:hover { color: black; }
-body.light a:active { color: black; }
-
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=JetBrains+Mono:ital,wght@1,100&family=Playfair+Display:ital@1&display=swap");
 
 /* constants */
 
@@ -18,22 +9,19 @@ body.light a:active { color: black; }
   --font-main: "JetBrains Mono", monospace;
   --light-green: #00e6b8;
 }
-/* importing font*/
-
-@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=JetBrains+Mono:ital,wght@1,100&family=Playfair+Display:ital@1&display=swap");
 
 /* background settings*/
 
 body {
   background-color: #000000;
   background-size: cover;
-  color: white;
   font-family: "Fairplay Display", monospace;
+  color: white;
 }
 
 /* discord style settings*/
 
-.discord {
+#discord {
   display: inline-block;
   position: absolute;
   top: 50%;
@@ -44,7 +32,7 @@ body {
 
 /* animated discord typewriter style*/
 
-.typing {
+#typing {
   overflow: hidden;
   white-space: nowrap;
   animation: typing 3s steps(25) forwards;
@@ -61,9 +49,9 @@ body {
   }
 }
 
-/* animated redirect to socials style*/
+/* animated redirect to socials style */
 
-.socials-href {
+#socials-href {
   display: inline-block;
   position: absolute;
   top: 60%;
@@ -72,10 +60,10 @@ body {
   margin: 0;
 }
 
-.typing-animation {
+#typing-animation {
   overflow: hidden;
   white-space: nowrap;
-  animation: typing 4s steps(28) forwards;
+  animation: typing 3.5s steps(28) forwards;
   font-size: 1.3rem;
   width: 0;
   font-family: var(--font-main);
@@ -90,10 +78,61 @@ body {
   }
 }
 
-a:link { color: white; }
+/* ABOUT ME */
 
-a:visited { color: white; }
+#about-me {
+  display: inline-block;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+}
 
-a:hover { color: white; }
+#typing-animation-about {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 2s steps(8) forwards;
+  font-size: 1.3rem;
+  width: 0;
+  font-family: var(--font-main);
+}
 
-a:active { color: white; }
+/* LINKS STYLE */
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: white;
+}
+
+
+/* LIGHT MODE */
+
+body.light {
+  background-color: white;
+  color: black;
+}
+
+body.light a:link {
+  color: black;
+}
+body.light a:visited {
+  color: black;
+}
+body.light a:hover {
+  color: black;
+}
+body.light a:active {
+  color: black;
+}

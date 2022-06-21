@@ -1,0 +1,42 @@
+/* importing font*/
+
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=JetBrains+Mono:ital,wght@1,100&family=Playfair+Display:ital@1&display=swap");
+
+/* CONSTANTS */
+
+:root
+{
+    --font-main: "JetBrains Mono", monospace;
+}
+
+/* BODY */
+
+body {
+    background-color: #000000;
+    background-size: cover;
+    color: white;
+    font-family: var(--font-main);
+}
+
+#about-text {
+    padding: 70px 0;
+    border: 2.5px solid rgb(20, 155, 196);
+    text-align: center;
+    font-size: 24px;
+    margin: 10px;
+}
+
+.changetheme {
+    
+}
+
+/* LIGHT */
+
+body.light {
+    background-color: white;
+    color: black;
+}
+
+body.light #about-text {
+    border: 2.5px solid rgb(52, 12, 161);
+}
