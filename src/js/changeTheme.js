@@ -1,4 +1,8 @@
+// ICON CHANGE CONSTANT
+
 const switchBtn = document.querySelector('.changetheme')
+
+// CHANGING THEME ON CLICK
 
 const toggleTheme = () => {
     if (document.body.classList.contains('dark-mode')) {
@@ -12,6 +16,8 @@ const toggleTheme = () => {
     }
 };
 
+// FUNCTION THAT SETTING THEME FROM LOCAL STORAGE
+
 const setThemeOnLaunch = () => {
     const savedTheme = localStorage.getItem('dark-mode');
     if (savedTheme === 'true') {
@@ -23,6 +29,10 @@ const setThemeOnLaunch = () => {
     }
 };
 
+// CHANGING THEME WHEN CLICKING ICON
+
 switchBtn.addEventListener('click', toggleTheme);
+
+// SETTING THEME FROM LOCAL STORAGE
 
 setThemeOnLaunch();

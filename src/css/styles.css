@@ -1,8 +1,8 @@
-/* importing font*/
+/* IMPORT FONT*/
 
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=JetBrains+Mono:ital,wght@1,100&family=Playfair+Display:ital@1&display=swap");
 
-/* constants */
+/* CONSTANTS */
 
 :root
 {
@@ -10,7 +10,7 @@
   --light-green: #00e6b8;
 }
 
-/* background settings*/
+/* BODY */
 
 body {
   background-color: #000000;
@@ -19,7 +19,7 @@ body {
   color: white;
 }
 
-/* discord style settings*/
+/* VISIBLE TEXT STYLES */
 
 #discord {
   display: inline-block;
@@ -30,7 +30,7 @@ body {
   margin: 0;
 }
 
-/* animated discord typewriter style*/
+/* TYPEWRITER ANIM */
 
 #typing {
   overflow: hidden;
@@ -49,7 +49,7 @@ body {
   }
 }
 
-/* animated redirect to socials style */
+/* TEXT */
 
 #socials-href {
   display: inline-block;
@@ -59,6 +59,8 @@ body {
   transform: translate(-50%, -50%);
   margin: 0;
 }
+
+/* TYPEWRITER ANIM */
 
 #typing-animation {
   overflow: hidden;
@@ -78,7 +80,7 @@ body {
   }
 }
 
-/* ABOUT ME */
+/* TEXT */
 
 #about-me {
   display: inline-block;
@@ -89,6 +91,8 @@ body {
   margin: 2.5px;
 }
 
+/* TYPEWRITER ANIM */
+
 #typing-animation-about {
   overflow: hidden;
   white-space: nowrap;
@@ -98,7 +102,7 @@ body {
   font-family: var(--font-main);
 }
 
-/* LINKS STYLE */
+/* LINKS */
 
 a:link {
   color: white;
