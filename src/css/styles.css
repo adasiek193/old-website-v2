@@ -102,6 +102,12 @@ body {
   font-family: var(--font-main);
 }
 
+/* THEME CHANGE ICON */
+
+.fas fa-adjust {
+  text-align: center;
+}
+
 /* LINKS */
 
 a:link {
