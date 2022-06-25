@@ -1,34 +1,48 @@
 /* IMPORT FONT */
 
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=JetBrains+Mono:ital,wght@1,100&family=Playfair+Display:ital@1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
 
 /* CONSTANTS */
 
 :root
 {
-    --font-main: "JetBrains Mono", monospace;
+    --font-main: 'Source Code Pro', monospace;
 }
 
 /* BODY */
 
 body {
-    background-color: #000000;
+    background-color: rgb(30, 30, 30);
     background-size: cover;
     color: white;
     font-family: var(--font-main);
+    height: 100vh;
 }
 
 /* STYLE OF TEXTS */
 
-#about-text {
+#wrapper {
     padding: 70px 0;
     border: 2.5px solid rgb(255, 255, 255);
-    text-align: center;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#readme-text {
     font-size: 24px;
     margin: 10px;
 }
 
 #index-redirect{
+    text-align: center;
+    font-size: 20px;
+}
+
+#touch-grass {
+    margin:  40px;
+    margin-left: 0px;
     text-align: center;
 }
 
@@ -64,9 +78,18 @@ body.light {
     color: black;
 }
 
-body.light #about-text {
+body.light #wrapper {
     border: 2.5px solid rgb(0, 0, 0);
 }
+
+body.light #touch-grass {
+    font-weight: 1000;
+}
+
+body.light #index-redirect {
+    font-weight: 1000;
+}
+
 
 body.light a:link {
     color: black;
