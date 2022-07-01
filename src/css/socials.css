@@ -84,12 +84,9 @@ body {
 }
 
 #return {
-    color: var(--light-green);
-    font-family: var(--font-main);
-    font-size: 1rem;
-    right: 50%;
-    top: 100%;
     text-align: center;
+    font-size: 1rem;
+    margin-top: 250px;
 }
 
 /* THEME CHANGE ICON */

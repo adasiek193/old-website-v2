@@ -17,7 +17,6 @@ body {
     background-size: cover;
     color: white;
     font-family: var(--font-main);
-    height: 100vh;
 }
 
 /* STYLE OF TEXTS */
@@ -37,7 +36,8 @@ body {
 
 #index-redirect{
     text-align: center;
-    font-size: 20px;
+    font-size: 1rem;
+    margin-top: 450px;
 }
 
 #touch-grass {
