@@ -1,38 +1,38 @@
 /* BODY */
 
 body {
-    background-color: rgb(50, 56, 168);
-    background-size: cover;
-    color: white;
+	background-color: rgb(50, 56, 168);
+	background-size: cover;
+	color: white;
 }
 
 /* TEXT STYLE */
 
 #err-text {
-    font-size: 120px;
-    margin-top: 350px;
-    text-align: center;
+	font-size: 120px;
+	margin-top: 350px;
+	text-align: center;
 }
 
 #index-redirect {
-    font-size: 28px;
-    text-align: center;
+	font-size: 28px;
+	text-align: center;
 }
 
 /* LINKS STYLE */
 
 a:link {
-    color: white;
-  }
-  
+	color: white;
+}
+
 a:visited {
-    color: white;
-  }
-  
+	color: white;
+}
+
 a:hover {
-    color: white;
-  }
-  
+	color: white;
+}
+
 a:active {
-    color: white;
-  }
+	color: white;
+}

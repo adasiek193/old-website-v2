@@ -4,136 +4,148 @@
 
 /* CONSTANTS */
 
-:root
-{
-  --font-main: "JetBrains Mono", monospace;
-  --light-green: #00e6b8;
+:root {
+	--font-main: "JetBrains Mono", monospace;
+	--light-green: #00e6b8;
 }
 
 /* BODY */
 
 body {
-  background-color: rgb(30, 30, 30);
-  background-size: cover;
-  font-family: "Fairplay Display", monospace;
-  color: white;
+	background-color: rgb(30, 30, 30);
+	background-size: cover;
+	font-family: "Fairplay Display", monospace;
+	color: white;
+}
+
+/* AV */
+
+#avatar-dc {
+	margin-left: 46vw;
+	margin-top: 30vh;
 }
 
 /* VISIBLE TEXT STYLES */
 
 #discord {
-  display: inline-block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: 0;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0;
 }
 
 /* TYPEWRITER ANIM */
 
 #typing {
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 3s steps(25) forwards;
-  font-size: 65px;
-  width: 0;
+	overflow: hidden;
+	white-space: nowrap;
+	animation: typing 3s steps(25) forwards;
+	font-size: 65px;
+	width: 0;
 }
 
 @keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
+	from {
+		width: 0;
+	}
+	to {
+		width: 100%;
+	}
 }
 
 /* TEXT */
 
 #socials-href {
-  display: inline-block;
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: 0;
+	display: inline-block;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 0;
 }
 
 /* TYPEWRITER ANIM */
 
 #typing-animation {
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 3.5s steps(28) forwards;
-  font-size: 1.3rem;
-  width: 0;
-  font-family: var(--font-main);
+	overflow: hidden;
+	white-space: nowrap;
+	animation: typing 3.5s steps(28) forwards;
+	font-size: 1.3rem;
+	width: 0;
+	font-family: var(--font-main);
 }
 
 /* TEXT */
 
 #about-me {
-  display: inline-block;
-  position: absolute;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  margin: 2.5px;
+	display: inline-block;
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: 2.5px;
 }
 
 /* TYPEWRITER ANIM */
 
 #typing-animation-about {
-  overflow: hidden;
-  white-space: nowrap;
-  animation: typing 2s steps(8) forwards;
-  font-size: 1.3rem;
-  width: 0;
-  font-family: var(--font-main);
+	overflow: hidden;
+	white-space: nowrap;
+	animation: typing 2s steps(8) forwards;
+	font-size: 1.3rem;
+	width: 0;
+	font-family: var(--font-main);
+}
+
+@media screen and (max-width: 768px) {
+	#typing-animation {
+		font-size: 50px;
+	}
 }
 
 /* THEME CHANGE ICON */
 
 .fas fa-adjust {
-  text-align: center;
+	text-align: center;
 }
 
 /* LINKS */
 
 a:link {
-  color: white;
+	color: white;
 }
 
 a:visited {
-  color: white;
+	color: white;
 }
 
 a:hover {
-  color: white;
+	color: white;
+	font-weight: bold;
 }
 
 a:active {
-  color: white;
+	color: white;
 }
-
 
 /* LIGHT MODE */
 
 body.light {
-  background-color: white;
-  color: black;
+	background-color: white;
+	color: black;
 }
 
 body.light a:link {
-  color: black;
+	color: black;
 }
 body.light a:visited {
-  color: black;
+	color: black;
 }
 body.light a:hover {
-  color: black;
+	color: black;
 }
 body.light a:active {
-  color: black;
+	color: black;
 }

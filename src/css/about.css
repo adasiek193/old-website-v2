@@ -1,105 +1,103 @@
 /* IMPORT FONT */
 
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=JetBrains+Mono:ital,wght@1,100&family=Playfair+Display:ital@1&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap");
 
 /* CONSTANTS */
 
-:root
-{
-    --font-main: 'Source Code Pro', monospace;
+:root {
+	--font-main: "Source Code Pro", monospace;
 }
 
 /* BODY */
 
 body {
-    background-color: rgb(30, 30, 30);
-    background-size: cover;
-    color: white;
-    font-family: var(--font-main);
+	background-color: rgb(30, 30, 30);
+	background-size: cover;
+	color: white;
+	font-family: var(--font-main);
 }
 
 /* STYLE OF TEXTS */
 
 #wrapper {
-    padding: 70px 0;
-    border: 2.5px solid rgb(255, 255, 255);
-    margin: 10px;
-    align-items: center;
-    justify-content: center;
+	padding: 70px 0;
+	border: 2.5px solid rgb(255, 255, 255);
+	margin: 10px;
+	align-items: center;
+	justify-content: center;
 }
 
 #readme-text {
-    font-size: 24px;
-    margin: 10px;
+	font-size: 24px;
+	margin: 10px;
 }
 
-#index-redirect{
-    text-align: center;
-    font-size: 1rem;
-    margin-top: 450px;
+#index-redirect {
+	text-align: center;
+	font-size: 1rem;
+	margin-top: 450px;
 }
 
 #touch-grass {
-    margin:  40px;
-    margin-left: 0px;
-    text-align: center;
+	margin: 40px;
+	margin-left: 0px;
+	text-align: center;
 }
 
 /* THEME CHANGE ICON */
 
 .fas fa-adjust {
-  text-align: center;
+	text-align: center;
 }
-
 
 /* LINKS */
 
 a:link {
-    color: white;
-  }
-  
+	color: white;
+}
+
 a:visited {
-    color: white;
-  }
-  
+	color: white;
+}
+
 a:hover {
-    color: white;
-  }
-  
+	color: white;
+	font-weight: bold;
+}
+
 a:active {
-    color: white;
-  }
+	color: white;
+}
 
 /* LIGHT MODE  */
 
 body.light {
-    background-color: white;
-    color: black;
+	background-color: white;
+	color: black;
 }
 
 body.light #wrapper {
-    border: 2.5px solid rgb(0, 0, 0);
+	border: 2.5px solid rgb(0, 0, 0);
 }
 
 body.light #touch-grass {
-    font-weight: 1000;
+	font-weight: 1000;
 }
 
 body.light #index-redirect {
-    font-weight: 1000;
+	font-weight: 1000;
 }
 
-
 body.light a:link {
-    color: black;
-  }
+	color: black;
+}
 body.light a:visited {
-    color: black;
-  }
+	color: black;
+}
 body.light a:hover {
-    color: black;
-  }
+	color: black;
+}
 body.light a:active {
-    color: black;
-  }
+	color: black;
+}
