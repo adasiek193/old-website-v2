@@ -4,132 +4,74 @@
 
 /* CONSTANTS */
 
-:root{
-    --font-main: "JetBrains Mono", monospace;
+:root {
+	--font-main: "JetBrains Mono", monospace;
 }
 
 /* BODY STYLE */
 
 body {
-    background-color: rgb(30, 30, 30);
-    background-size: cover;
-    color: white;
-    font-family: var(--font-main);
+	background-color: rgb(30, 30, 30);
+	background-size: cover;
+	color: white;
+	font-family: var(--font-main);
 }
 
-/* ALL LINKS TO SOCIALS STYLE */
+/* just text */
 
-#GitHub {
-    margin: 0;
-    font-size: 2rem;
-    font-family: var(--font-main);
-    top: 10%;
-    text-align: center;
-}
-
-#Twitter {
-    margin: 0;
-    font-size: 2rem;
-    font-family: var(--font-main);
-    top: 20%;
-    text-align: center;
-}
-
-#Twitch {
-    margin: 0;
-    font-size: 2rem;
-    font-family: var(--font-main);
-    top: 30%;
-    text-align: center;
-}
-
-#Spotify {
-    margin: 0;
-    font-size: 2rem;
-    font-family: var(--font-main);
-    top: 40%;
-    text-align: center;
-}
-
-#YouTube {
-    margin: 0;
-    font-size: 2rem;
-    font-family: var(--font-main);
-    top: 50%;
-    text-align: center;
-}
-
-#Instagram {
-    margin: 0;
-    font-size: 2rem;
-    font-family: var(--font-main);
-    top: 60%;
-    text-align: center;
-}
-
-#Steam {
-    margin: 0;
-    font-size: 2rem;
-    font-family: var(--font-main);
-    top: 70%;
-    text-align: center;
-}
-
-#Telegram {
-    margin: 0;
-    font-size: 2rem;
-    font-family: var(--font-main);
-    top: 80%;
-    text-align: center;
+.social-link {
+	margin: 0;
+	font-size: 2rem;
+	font-family: var(--font-main);
+	text-align: center;
 }
 
 #return {
-    text-align: center;
-    font-size: 1rem;
-    margin-top: 250px;
+	text-align: center;
+	font-size: 1rem;
+	margin-top: 250px;
 }
 
 /* THEME CHANGE ICON */
 
 .fas fa-adjust {
-    text-align: center;
-  }
-  
+	text-align: center;
+}
 
 /* LINKS */
 
 a:link {
-    color: white;
+	color: white;
 }
 
 a:visited {
-    color: white;
+	color: white;
 }
 
 a:hover {
-    color: white;
+	color: white;
 }
 
 a:active {
-    color: white;
+	color: white;
 }
 
 /* LIGHT MODE */
 
 body.light {
-    background-color: white;
-    color: black;
+	background-color: white;
+	color: black;
 }
 
 body.light a:link {
-    color: black;
+	color: black;
 }
 body.light a:visited {
-    color: black;
+	color: black;
 }
 body.light a:hover {
-    color: black;
+	color: black;
 }
 body.light a:active {
-    color: black;
+	color: black;
 }
