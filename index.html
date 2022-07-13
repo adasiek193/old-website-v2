@@ -1,3 +1,7 @@
+<!-- CREATED WITH NO PASSION BY adasi€k#3333
+LICENSE IS ON github.com/adasiek193/adasiek.xyzV2/blob/main/LICENSE
+-->
+
 <!DOCTYPE HTML>
 <html lang="en-EN">
 
@@ -23,15 +27,15 @@
   <!--All text that user will see-->
 
   <div id="avatar-dc">
-    <img width="128" height="128" src="src/img/avatar.png" alt="avatar from dc" ondrop="return false;"
-      style="border-radius: 50%;">
+    <img class="avatar" width="128" height="128" src="https://cdn.discordapp.com/embed/avatars/5.png"
+      alt="avatar from dc" ondrop="return false;" style="border-radius: 50%;">
   </div>
 
-  <div id="discord">
+  <header id="discord">
     <div id="typing">
       <p> adasi€k#3333 </p>
     </div>
-  </div>
+  </header>
 
   <div id="socials-href">
     <div id="typing-animation">
@@ -54,6 +58,29 @@
   <script type="text/javascript" src="src/js/changeTheme.js" defer></script>
   <script? type="text/javascript" src="src/js/app.js" defer>
   </script>
+
+    <script>
+
+      // im an javascript idiot so i didnt knew how to fetch avatar from discord, this script comes from czubix#7679 website, big appericate! (czubix.me)
+
+      (async () => {
+        const avatar = document.querySelector("#avatar-dc > img")
+        const now = Date.now()
+
+        if (!localStorage.getItem("avatarUrl") || (parseInt(now - localStorage.getItem("lastFetch")) > 5 * 60 * 1000)) {
+          const data = await (await fetch("https://discord.com/api/invites/P7yzQBEYUu")).json()
+
+          localStorage.setItem("avatarUrl", "https://cdn.discordapp.com/avatars/" + data.inviter.id + "/" + data.inviter.avatar + ".png")
+          localStorage.setItem("lastFetch", now)
+
+        }
+
+        avatarUrl = localStorage.getItem("avatarUrl")
+
+        avatar.src = avatarUrl
+      })()
+
+    </script>
 
 </body>
 

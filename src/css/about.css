@@ -85,10 +85,6 @@ body.light #touch-grass {
 	font-weight: 1000;
 }
 
-body.light #index-redirect {
-	font-weight: 1000;
-}
-
 body.light a:link {
 	color: black;
 }
@@ -97,6 +93,7 @@ body.light a:visited {
 }
 body.light a:hover {
 	color: black;
+	font-weight: bold;
 }
 body.light a:active {
 	color: black;
