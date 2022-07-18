@@ -21,8 +21,10 @@ body {
 /* AV */
 
 #avatar-dc {
-	margin-left: 46vw;
-	margin-top: 30vh;
+	position: absolute;
+	left: 50%;
+	top: 39%;
+	transform: translate(-50%, -50%);
 }
 
 /* VISIBLE TEXT STYLES */
