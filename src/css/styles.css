@@ -44,6 +44,7 @@ body {
 	animation: typing 3s steps(25) forwards;
 	font-size: 65px;
 	width: 0;
+	font-family: monospace;
 }
 
 @keyframes typing {

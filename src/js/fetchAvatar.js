@@ -1,3 +1,5 @@
+// FETCHING MY CURRENT AVATAR FROM DISCORD API (SCRIPT COMES FROM CZUBIX#7679 WEBSITE (CZUBIX.ME))
+
 (async () => {
 	const avatar = document.querySelector("#avatar-dc > img");
 	const now = Date.now();
