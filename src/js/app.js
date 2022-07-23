@@ -1,4 +1,5 @@
 // IDK WHY I DID IT BUT YE
+"use strict";
 
 let x = 15;
 

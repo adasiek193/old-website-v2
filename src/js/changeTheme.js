@@ -1,5 +1,7 @@
 //  JAVASCRIPT CODE FOR CHANGING AND SAVING THEME (DARK, LIGHT)
 
+"use strict";
+
 // ICON CHANGE CONSTANT
 const switchBtn = document.querySelector(".changetheme");
 
