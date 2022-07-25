@@ -5,5 +5,5 @@
 </div>
 
 <div id="about">
-  <p> New version of my shitty website, idk is this better but im still learning basics of frontend especially JavaScript </p>
+  <p> New version of my shitty website, idk is this better but im still learning basics of frontend </p>
 </div>
