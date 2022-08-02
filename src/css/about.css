@@ -33,11 +33,10 @@ body {
 	margin: 10px;
 }
 
-#index-redirect {
-	position: absolute;
-	left: 50%;
-	top: 95%;
-	transform: translate(-50%, -50%);
+#return {
+	text-align: center;
+	font-size: 1rem;
+	margin-top: 250px;
 }
 
 #touch-grass {
