@@ -20,54 +20,52 @@ body {
 
 /* STYLE OF TEXTS */
 
-#wrapper {
-	padding: 70px 0;
-	border: 2.5px solid rgb(255, 255, 255);
-	margin: 10px;
-	align-items: center;
-	justify-content: center;
-}
-
 #readme-text {
-	font-size: 24px;
-	margin: 10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 1.3em;
 }
 
-#return {
-	text-align: center;
-	font-size: 1rem;
-	margin-top: 250px;
+.return-to-index {
+	transform: translate(-50%, -50%);
+	position: absolute;
+	top: 2%;
+	left: 50%;
 }
 
-#touch-grass {
-	margin: 40px;
-	margin-left: 0px;
-	text-align: center;
+.site-name {
+	transform: translate(-50%, -50%);
+	position: absolute;
+	top: 2%;
+	left: 3%;
 }
 
 /* THEME CHANGE ICON */
 
-.fas fa-adjust {
-	text-align: center;
+.changetheme {
+	float: right;
 }
 
 /* LINKS */
 
 a:link {
-	color: white;
+	color: #ff688c;
+	font-weight: bold;
 }
 
 a:visited {
-	color: white;
+	color: #ff688c;
 }
 
 a:hover {
-	color: white;
+	color: #ff688c;
 	font-weight: bold;
 }
 
 a:active {
-	color: white;
+	color: #ff688c;
 }
 
 /* LIGHT MODE  */
@@ -77,24 +75,16 @@ body.light {
 	color: black;
 }
 
-body.light #wrapper {
-	border: 2.5px solid rgb(0, 0, 0);
-}
-
-body.light #touch-grass {
-	font-weight: 1000;
-}
-
 body.light a:link {
-	color: black;
+	color: #ff688c;
 }
 body.light a:visited {
-	color: black;
+	color: #ff688c;
 }
 body.light a:hover {
-	color: black;
+	color: #ff688c;
 	font-weight: bold;
 }
 body.light a:active {
-	color: black;
+	color: #ff688c;
 }

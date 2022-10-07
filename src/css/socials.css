@@ -15,29 +15,21 @@ body {
 	background-size: cover;
 	color: white;
 	font-family: var(--font-main);
+	height: 100%;
 }
 
 /* just text */
 
 .social-link {
-	margin: 0;
+	margin: 35px;
 	font-size: 2rem;
 	font-family: var(--font-main);
-	text-align: center;
+	margin-left: 45%;
+	margin-right: 45%;
+	width: 265px;
+	height: 45px;
+	display: block;
 }
-
-#return {
-	text-align: center;
-	font-size: 1rem;
-	margin-top: 250px;
-}
-
-/* THEME CHANGE ICON */
-
-.fas fa-adjust {
-	text-align: center;
-}
-
 /* LINKS */
 
 a:link {
